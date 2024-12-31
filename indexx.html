@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/css/splide.min.css">
+
+</head>
+
+<body>
+    <div class="navbarfz">
+        <div class="wrapperfz">
+            <div class="logozf">
+                <img src="assets/green.png" alt="">
+            </div>
+            <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+    
+            <div class="cheez">
+                <div class="menu-item">
+                    <a href="indexx.html" id="home">Home</a>
+                </div>
+    
+                <div class="menu-item">
+                    <a href="">Products & Categories</a>
+                    <ul class="dropdownies">
+                        <li><a href="">Eco Bags</a></li>
+                        <li><a href="">Fashion Accessories</a></li>
+                        <li><a href="">Biodegradable Dish</a></li>
+                        <li><a href="">Skincare Products</a></li>
+                    </ul>
+                </div>
+    
+                <div class="menu-item">
+                    <a href="">Pages</a>
+                    <ul class="dropdownies">
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="">View Cart</a></li>
+                        <li><a href="checkout.html">Check Out</a></li>
+                        <li><a href="">Invoice</a></li>
+
+                    </ul>
+                </div>
+    
+                <div class="menu-item">
+                    <a href="blog.html">Blog</a>
+                </div>
+                <div class="contact">
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+    
+            <div class="iconsw">
+                <i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
+                <a href="login.html"><i class="fa-regular fa-user" style="color: #000000;"></i></a>
+                <i class="fa-regular fa-heart" style="color: #000000;"></i>
+                <i class="fa-solid fa-bag-shopping" style="color: #000000;"></i>
+            </div>
+        </div>
+    </div>
+    <!-- bootstrap -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/hero_images_1(1).jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Sustainability Meets Style</h5>
+                    <p>Discover eco-friendly products that are as beautiful as they are kind to the planet.</p>
+                    <button class="button"><a href="shop.html">Shop Now</a></button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/pexels-cup-of-couple-6634168.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1><strong>Shop Green, Live Clean</strong></h1>
+                    <p>Upgrade your lifestyle with sustainable choices for every need.</p>
+                    <button class="button"><a href="shop.html">Shop Now</a></button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/skincare-2(1).jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Good for You, Better for the Earth</h5>
+                    <p>Ethically crafted products for a greener tomorrow.</p>
+                    <button class="button"><a href="shop.html">Shop Now</a></button>
+
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="shop">
+        <div class="wrapper3">
+            <p>SHOP BY CATEGORIES</p>
+        </div>
+    </div>
+    <div class="cards">
+        <div class="wrap">
+            <div class="card1">
+                <img src="assets/bagsi.jpg" alt="">
+                <div class="c1b"><a href="">Bags</a></div>
+            </div>
+            <div class="card2">
+                <img src="assets/skincare-3.jpg" alt="">
+                <div class="c2b"><a href="">Skincare</a></div>
+
+            </div>
+            <div class="card3">
+                <img src="assets/food-3.jpg" alt="">
+                <div class="c3b"><a href="">Food Accessories</a></div>
+
+            </div>
+            <div class="card4">
+                <div class="card44">
+                    <p>Discovery all new items</p>
+                    <div class="card4i">
+<a href="shop.html">
+    <i class="fa-solid fa-arrow-up-right-from-square" style="color: #000000;"></i>
+
+</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bestseller">
+        <div class="wrapper4">
+
+            <h2>Best Seller</h2>
+            <p>Shop the Latest Styles: Stay ahead of the curve with our newest arrivals</p>
+        </div>
+    </div>
+    <div class="newcards">
+        <div class="wrap">
+            <div class="card1">
+                <img src="assets/serum1.jpeg" alt="">
+                <!-- <div class="c1b">Bags</div> -->
+            </div>
+            <div class="card2">
+                <img src="assets/watch2.jpeg" alt="">
+                <!-- <div class="c2b">Skincare</div> -->
+
+            </div>
+            <div class="card3">
+                <img src="assets/straw1.jpeg" alt="">
+                <!-- <div class="c3b">Food Accessories</div> -->
+
+            </div>
+            <div class="card1">
+                <img src="assets/personalcarebag1.webp" alt="">
+                <!-- <div class="c1b">Bags</div> -->
+            </div>
+        </div>
+    </div>
+    <div class="wrapper4">
+        <div class="loadbutton">
+           <a href="shop.html">Load more</a>
+        </div>
+    </div>
+
+    <div class="bestseller">
+        <div class="wrapper4">
+
+            <h2 style="font-size: 50px; font-weight: light;">Happy Clients</h2>
+            <p style="font-size: 20px;">Hear what they say about us</p>
+        </div>
+    </div>
+
+    <div class="newcard2">
+        <div class="wrap">
+            <div class="ncard1">
+                <div class="nncard1">
+                    <div class="iconcard">
+                        <i class="fa-solid fa-star" style="color: orange;"></i>
+                        <i class="fa-solid fa-star" style="color: orange;"></i>
+                        <i class="fa-solid fa-star" style="color: orange;"></i>
+                        <i class="fa-solid fa-star" style="color: orange;"></i>
+                        <i class="fa-solid fa-star" style="color: orange;"></i>
+                    </div>
+                    <h4>Best Online Fashion Site</h4>
+                    <p>"I always find something stylish and affordable on this web fashion site" </p>
+                    <div class="nncard2">
+                        <h3>Robert Smith</h3>
+                        <p>Customer From USA</p>
+                    </div>
+                    <div class="line"></div>
+                    <div class="prod">
+                        <img src="assets/serum4.jpeg" alt="">
+                        <div class="text">
+                            <p>Serum</p>
+                            <h6>$56.00</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ncard1">
+
+
+                <div class="nncard1">
+                    <div class="iconcard">
+                        <i class="fa-solid fa-star" style="color: orange;"></i>
+                        <i class="fa-solid fa-star" style="color: orange;"></i>
+                        <i class="fa-solid fa-star" style="color: orange;"></i>
+                        <i class="fa-solid fa-star" style="color: orange;"></i>
+                        <i class="fa-solid fa-star" style="color: orange;"></i>
+                    </div>
+                    <h4>Great Selection & Quality</h4>
+                    <p>
+                        "I love the variety of styles and the high-quality clothing on this web fashion site."
+                    </p>
+                    <div class="nncard2">
+                        <h3>Robert Smith</h3>
+                        <p>Customer From USA</p>
+                    </div>
+                    <div class="line"></div>
+                    <div class="prod">
+                        <img src="assets/watch3.jpeg" alt="">
+                        <div class="text">
+                            <p>Serum</p>
+                            <h6>$56.00</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ncard1">
+
+
+                <div class="nncard1">
+                    <div class="iconcard">
+                        <i class="fa-solid fa-star" style="color: orange;"></i>
+                        <i class="fa-solid fa-star" style="color: orange;"></i>
+                        <i class="fa-solid fa-star" style="color: orange;"></i>
+                        <i class="fa-solid fa-star" style="color: orange;"></i>
+                        <i class="fa-solid fa-star" style="color: orange;"></i>
+                    </div>
+                    <h4>Best Customer Service
+                    </h4>
+                    <p>"I always find something stylish and affordable on this web fashion site" </p>
+                    <div class="nncard2">
+                        <h3>Robert Smith</h3>
+                        <p>Customer From USA</p>
+                    </div>
+                    <div class="line"></div>
+                    <div class="prod">
+                        <img src="assets/personalcarebag3.webp" alt="">
+                        <div class="text">
+                            <p>Serum</p>
+                            <h6>$56.00</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 
+        <div class="brandlogo">
+            <div class="wrap2">
+                <div class="brand1" id="br2">
+                    <img src="assets/logos1.png" alt="">
+                </div>
+                <div class="brand1" >
+                    <img src="assets/logos2.png" alt="">
+                </div>
+                <div class="brand1">
+                    <img src="assets/logos3.png" alt="">
+                </div>
+                <div class="brand1">
+                    <img src="assets/logos4.png" alt="">
+                </div>
+                <div class="brand1">
+                    <img src="assets/logos5.png" alt="">
+                </div>
+                <div class="brand1" id="br1">
+                    <img src="assets/logos6.png" alt="">
+                </div>
+            </div>
+        </div> -->
+    <!-- cardslider -->
+
+    <!-- <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel" style="margin-top: 50px;">
+        <div class="carousel-inner" >
+          <div class="carousel-item active">
+            <div class="card-wrapper container-sm d-flex  justify-content-around">
+              <div class="card" style="width: 14rem; display: flex; justify-content: center; align-items: center;">
+                  <img src="assets/logos1.png" class="card-img-top" alt="..." style="width: 150px;">
+        
+      </div>
+      <div class="card" style="width: 14rem; display: flex; justify-content: center; align-items: center;">
+          <img src="assets/logos2.png" class="card-img-top" alt="..." style="width: 150px;">
+              </div>
+      
+                  <div class="card" style="width: 14rem; display: flex; justify-content: center; align-items: center;">
+                      <img src="assets/logos3.png" class="card-img-top" alt="..." style="width: 150px;">
+      </div>
+      <div class="card ti" style="width: 14rem; display: flex; justify-content: center; align-items: center;">
+          <img src="assets/logos4.png" class="card-img-top ti" alt="..." style="width: 150px;">
+        </div>
+      </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card-wrapper container-sm d-flex   justify-content-around">
+              <div class="card" style="width: 14rem; display: flex; justify-content: center; align-items: center;">
+                  <img src="assets/logos5.png" class="card-img-top" alt="..." style="width: 150px;">
+      </div>
+      <div class="card" style="width: 14rem; display: flex; justify-content: center; align-items: center;">
+          <img src="assets/logos6.png" class="card-img-top" alt="..." style="width: 150px;">
+              </div>
+              <div class="card" style="width: 14rem; display: flex; justify-content: center; align-items: center;">
+                  <img src="assets/logos1.png" class="card-img-top" alt="..." style="width: 150px;">
+      </div>
+      <div class="card ti" style="width: 14rem; display: flex; justify-content: center; align-items: center;">
+          <img src="assets/logos2.png" class="card-img-top ti" alt="..." style="width: 150px;">
+        </div>
+          </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card-wrapper container-sm d-flex  justify-content-around">
+            <div class="card" style="width: 14rem; display: flex; justify-content: center; align-items: center;">
+        <img src="assets/logos3.png" class="card-img-top" alt="..." style="width: 150px;">
+      
+      
+      </div>
+      <div class="card" style="width: 14rem; display: flex; justify-content: center; align-items: center;">
+          <img src="assets/logos4.png" class="card-img-top" alt="..." style="width: 150px;">
+              </div>
+              <div class="card" style="width: 14rem; display: flex; justify-content: center; align-items: center;">
+                  <img src="assets/logos5.png" class="card-img-top" alt="..." style="width: 150px;">
+      </div>
+      <div class="card ti" style="width: 14rem; display: flex; justify-content: center; align-items: center;">
+          <img src="assets/logos6.png" class="card-img-top ti" alt="..." style="width: 150px;">
+        </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+         </div>  -->
+
+    <!-- cardslider -->
+
+    <!-- footer -->
+
+    <div class="contmain" style="margin-top: 50px;">
+        <hr>
+        <div class="rowfoot">
+            <div class="colfoot">
+                <div class="footcatd">
+                    <div class="cardbodyfoot">
+                        <a href="indexx.html">
+                            <img src="assets/ESSENTIAL.png" alt="">
+                        </a>
+                        <div class="ppss">
+
+                            <p>Address: 1234 Fashion Street, Suite 567,</p>
+                            <p>New York, NY 10001</p>
+                            <p>Email: info@fashionshop.com</p>
+                            <p>Phone: (212) 555-1234</p>
+                        </div>
+
+                        <a href="contact.html" class="colfoota">
+                            get direction
+                            <i class="fa-solid fa-arrow-up-right-from-square" style="color: #000000;"></i>
+                        </a>
+                        <div class="contacticon">
+                            <div class="golicon">
+                                <a href="">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </div>
+                            <div class="golicon">
+                                <a href="">
+                                    <!-- <i class="fa-brands fa-facebook-f"></i> -->
+                                    <i class="fa-brands fa-discord" style="color:#000000;"></i>
+                                </a>
+                            </div>
+                            <div class="golicon">
+                                <a href="">
+                                    <!-- <i class="fa-brands fa-facebook-f"></i> -->
+                                    <i class="fa-brands fa-instagram" style="color:#000000;"></i>
+                                </a>
+                            </div>
+                            <div class="golicon">
+                                <a href="">
+                                    <!-- <i class="fa-brands fa-facebook-f"></i> -->
+                                    <i class="fa-brands fa-pinterest" style="color:#000000;"></i>
+                                </a>
+                            </div>
+                            <div class="golicon">
+                                <a href="">
+                                    <!-- <i class="fa-brands fa-facebook-f"></i> -->
+                                    <i class="fa-brands fa-x-twitter" style="color:#000000;"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="colfoot">
+                <div class="footcatd">
+                    <div class="cardbodyfoot">
+                        <h4>Help</h4>
+                        <div class="ppss">
+                            <p>Privacy Policy</p>
+                            <p>Returns + Exchanges</p>
+                            <p>Shipping</p>
+                            <p>Terms & Conditions</p>
+                            <p>FAQ’s</p>
+                            <p>Compare</p>
+                            <p>My Wishlist</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="colfoot">
+                <div class="footcatd">
+                    <div class="cardbodyfoot">
+                        <h4>About Us</h4>
+                        <div class="ppss">
+                            <p>Our Story</p>
+                            <p>Visit Our Store</p>
+                            <p>Contact Us</p>
+                            <p>Account</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="colfoot">
+                <div class="footcatd">
+                    <div class="cardbodyfoot">
+                        <h4>Sign Up For Email</h4>
+                        <div class="ppss">
+                            <p>Sign up to get first dibs on new arrivals,</p>
+                            <p>sales, exclusive content, events and more!</p>
+                            <form action="" class="fomi">
+                                <div id="subs">
+                                    <input type="text" placeholder="Enter Your Email...">
+                                </div>
+                                <div class="butosub" style="background-color: #000000;">
+                                    Subscribe
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <hr style="margin-top: 50px;">
+    </div>
+    <div class="wrapping">
+        <div class="copyri">
+            © 2024 Eco Store. All Rights Reserved
+        </div>
+        <div class="bankcards">
+            <img src="assets/visa.png" alt="">
+            <img src="assets/cardbank.png" alt="">
+            <img src="assets/paypal.png" alt="">
+            <img src="assets/amex.png" alt="">
+            <img src="assets/cardbank2.png" alt="">
+        </div>
+    </div>
+
+    <!-- footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

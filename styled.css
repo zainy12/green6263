@@ -1,0 +1,349 @@
+/* .NewArrival */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.NewArrival{
+    height: 200px;
+    background: linear-gradient(to left, rgb(188, 220, 248), #c97db046,#EDEDED);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 70px;
+    position: relative;
+    /* z-index: 0; */
+}
+.texti{
+    margin:0 auto;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.texti2{
+    margin-top: 10px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+
+}
+.wrapperf1{
+    margin:0 auto;
+     width: 90%;
+     margin-top: 80px;
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /* gap: 18px; */
+}
+.wrapperf11{
+    margin:0 auto;
+    width: 90%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fbtn button{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    /* color: rgba(0, 0, 0, 0.904); */
+    background-color: white;
+}
+.fbtn a{
+    text-decoration: none;
+
+}
+.fbtn button:hover{
+    border: 1px solid black;
+    /* background-color: rgba(0, 0, 0, 0.397); */
+
+}
+.card{
+    border-radius: 10px;
+}
+/* .NewArrival */
+.contactuso{
+    margin-top: 150px;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactuswrap{
+
+    width: 90%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.conta2{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-; */
+    /* background-color: pink; */
+    flex-wrap: wrap;
+}
+.last2 input{
+    /* border-color:none; */
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color:aliceblue;
+}
+.conta1{
+    width:400px; 
+    /* background-color: pink; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around; */
+}
+.conta1 p,.conta1 h6{
+    margin-top: 30px;
+}
+
+.conta2 p{
+    margin-top: 20px;
+
+}
+.last2 button{
+width: 100%;
+background-color: #000;
+padding: 10px 0px;
+color: aliceblue;
+border: 1px solid black;
+border-radius: 5px;
+}
+.checko{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rebeccapurple; */
+}
+.checkwrap{
+    width: 90%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.chck1{
+    width: 700px;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+.chck1 input{
+    width: 100%;
+    padding: 10px 0px 10px 10px;
+    color: aliceblue;
+        border: 1px solid black;
+        border-radius: 5px;
+   
+}
+
+.chek2{
+    width: 400px;
+    /* background-color: yellowgreen; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    flex-wrap:wrap ;
+}
+.liney{
+    width: 100%;
+    margin: 0 auto;
+    background-color: gray;
+}
+.chcki2{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    flex-wrap:wrap ;
+
+}
+.chcki2 button{
+        width: 100%;
+        background-color: #000;
+        padding: 10px 0px;
+        color: aliceblue;
+        border: 1px solid black;
+        border-radius: 5px;
+        
+}
+.blogy{
+    margin-top: 100px;
+    /* background-color: rebeccapurple; */
+    /* background-color: rgba(124, 155, 106, 0.692); */
+    /* background: linear-gradient(rgba(124, 155, 106, 0.692),rgb(140, 153, 109)); */
+}
+.blogwrap{
+    margin-top: 150px;
+    margin: 0 auto;
+    width: 90%;
+    /* background-color: lightyellow; */
+    display: flex;
+    justify-content: space-between;
+    /* position: relative; */
+    flex-wrap:wrap ;
+}
+.blo1{
+    width: 50%;
+    margin-top: 50px;
+    /* color: #fff; */
+    margin-bottom: 50px;
+    /* background-color: pink; */
+    
+}
+.blo1 h2,.blo1 h6{
+    color: rgb(51, 68, 18);
+
+}
+.blo1 h2{
+    /* background-color: rgba(124, 155, 106, 0.692); */
+    border: 3px solid rgba(124, 155, 106, 0.692);
+    border-radius: 50px;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.blo1 h6{
+    font-style: italic;
+    font-weight: bold;
+}
+.blo2{
+    width: 40%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+
+}
+.blo2 img{
+    width: 100%; 
+    height: 70%;
+    position: sticky;
+    top: 50px;
+} 
+@media (max-width:1000px) {
+    /* .blogy{ */
+        /* background-color: green; */
+    /* } */
+    .blo1{
+        width: 100%; 
+        height: 70%; 
+        /* position: sticky;
+        top: 50px; */
+        /* margin: 0;
+        padding: 0; */
+    }   
+    .blo2{
+        width: 100%; 
+        /* height: 0; */
+        /* margin: 0;
+        padding: 0; */
+        /* background-color: #000; */
+margin-bottom: 10px;
+    }
+    .blo2 img{
+        width: 100%;
+        height: auto;
+        position: static; 
+
+    } 
+}
+@media (max-width: 1100px) {
+    .wrapin {
+        display: flex;
+        flex-direction: column; 
+        /* justify-content: space-evenly; */
+        align-items: center;
+    }
+    .necard1,
+    .necard2,
+    .aboutcard1,
+    .aboutcard2,
+    .aboutcard3,
+    .aboutcard4 {
+        width: 90%; 
+        margin-bottom: 20px; 
+        /* background-color: orange; */
+    }
+    .necard1 img,
+    .aboutcard1 img,
+    .aboutcard3 img {
+        width: 100%; /* Ensure images scale properly */
+    }
+}
+
+.Ne {
+    display: flex;
+    justify-content: space-between;
+}
+
+.necard1 {
+    margin-top: 100px;
+    width: 50%;
+}
+
+.necard1 img {
+    width: 100%;
+}
+
+.necard2 {
+    margin-top: 150px;
+    width: 40%;
+}
+
+.aboutu2 {
+    margin-top: 50px;
+}
+
+.wrapin {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.aboutcard1 {
+    width: 50%;
+}
+
+.aboutcard1 img {
+    width: 100%;
+}
+
+.aboutcard2 {
+    margin: 0 auto;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.aboutcard3 {
+    width: 50%;
+}
+
+.aboutcard3 img {
+    width: 100%;
+}
+
+.aboutcard4 {
+    margin: 0 auto;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
